@@ -1,0 +1,37 @@
+
+
+Clone remote repository:                    git clone <string-from-github>
+
+
+Add file contents to INDEX:                 git add <file>
+Remove files from working tree and INDEX:   git rm <file>
+Move or rename file or directory:           git mv <source> <destination>
+Record change to local repository:          git commit -m <commit-message>
+
+
+Fetch from remote repository:               git pull
+Update remote repository:                   git push
+
+
+View changes made to working tree:          git diff
+View status:                                git status
+
+
+Get help on git:                            git --help
+Get help on git subcommand:                 git <command> --help
+
+
+Configuration:
+  git config --global user.name   <name>
+  git config --global user.email  <email-address>
+  git config --global core.editor <editor-command>
+
+
+Documentation:
+  https://git-scm.com/docs
+  https://git-scm.com/book
+
+
+Web pages listing resources:
+  https://help.github.com/articles/good-resources-for-learning-git-and-github/
+  https://www.atlassian.com/git/tutorials/

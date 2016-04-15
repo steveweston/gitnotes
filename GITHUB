@@ -1,0 +1,59 @@
+To create repository on GitHub:
+  - Go to https://github.com in your browser and sign-in
+  - On GitHub dashboard page:
+    - Click "+" (Create new...) menu in upper right
+  - On "Create a new repository" page:
+    - Enter repository name
+    - Enter description (optional)
+    - Check "Initialize this repository with a README" box
+    - Click "Create repository" button
+
+To add collaborator to GitHub repository:
+  - Go to https://github.com in your browser and sign-in
+  - On GitHub dashboard page:
+    - Select repository from "Your repositories" box on right
+  - On repository page:
+    - Click "Settings" tab
+    - Select "Collaborators" from "Options" box on left
+    - Type username, full name or email address into collaborator
+      search box and hit <Enter>
+    - Click "Add collaborator" button on right
+
+To clone GitHub repository on development machine:
+  - Go to https://github.com in your browser and sign-in
+  - On GitHub dashboard page:
+    - Select repository from "Your repositories" box on right
+  - On repository page:
+    - Click "Copy to clipboard" button (near "Download ZIP")
+  - On development machine:
+    - "cd" to appropriate directory
+    - Execute "git clone" followed by URL from clipboard:
+      $ git clone git@github.com:example/testrepo.git
+
+    This creates directory with same name as repository
+    in current working directory
+
+To update clone:
+  - On development machine:
+    - "cd" to clone working directory
+    - Update clone using "git pull"
+
+  This may trigger a merge commit, in which case you can enter a
+  commit comment.
+
+To add or change files in GitHub repository from clone:
+  - On development machine:
+    - "cd" to clone working directory
+    - Copy or edit desired files
+    - Stage new or modified files using "git add"
+    - Commit changes using "git commit"
+    - Push commit to GitHub using "git push"
+
+To delete repository:
+  - Go to https://github.com in your browser and sign-in
+  - On GitHub dashboard page:
+    - Select repository from "Your repositories" box on right
+  - On repository page:
+    - Click "Settings" tab
+    - Click "Delete this repository" button at bottom of page
+    - Follow instructions on warning box
